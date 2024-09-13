@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "monkeylick_metadata",
+    card: "summary_large_image",
     images: [
       {
         url: "/metadata.png",
