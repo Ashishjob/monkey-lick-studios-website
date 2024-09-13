@@ -9,6 +9,23 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Monkey Lick Studios",
   description: "Monkey Lick Studios is a game development studio that creates fun and engaging games.",
+  openGraph: {
+    images: [
+      {
+        url: "/metadata.png",
+        alt: "Monkey Lick Studios",
+      },
+    ],
+  },
+  twitter: {
+    card: "monkeylick_metadata",
+    images: [
+      {
+        url: "/metadata.png",
+        alt: "Monkey Lick Studios",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
