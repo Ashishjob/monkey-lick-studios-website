@@ -47,7 +47,7 @@ const serviceList: ServiceProps[] = [
   },
   {
     image: "/ross-rezvani.svg",
-    name: "Ross Reszvani",
+    name: "Ross Rezvani",
     position: "📝 Designer",
     linkedin: "https://www.linkedin.com/in/submit",
   },
