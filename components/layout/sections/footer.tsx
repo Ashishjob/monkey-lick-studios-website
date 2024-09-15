@@ -10,7 +10,7 @@ export const FooterSection = () => {
           <div className="col-span-full xl:col-span-2">
             <Link href="#" className="flex font-bold items-center">
 
-              <h3 className="text-2xl">Easy Template 2</h3>
+              <h3 className="text-2xl">Monkey Lick Studios</h3>
             </Link>
           </div>
 
@@ -105,10 +105,10 @@ export const FooterSection = () => {
             &copy; 2024 Brought to you by 
             <Link
               target="_blank"
-              href="https://github.com/DarkInventor"
-              className="text-primary transition-all border-primary hover:border-b-2 ml-1"
+              href="https://github.com/Monkey-Lick-Studios"
+              className="text-[#FED009] transition-all border-primary hover:border-b-2 ml-1"
             >
-              Kathan     
+              Monkey Lick Studios     
             </Link>
             
           </h3>

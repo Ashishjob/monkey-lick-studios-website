@@ -71,23 +71,24 @@ export const Navbar = () => {
   const { theme } = useTheme();
   return (
     <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card backdrop-blur bg-transparent">
+      
       <Link href="/" className="font-bold text-lg flex items-center ml-2">
-        <Image
-          width={50}
-          height={50}
-          className="mx-auto mr-4 rounded-lg relative rouded-lg leading-none flex items-center"
-          src={
-            theme === "light"
-              ? "/navbar-logo-light.svg"
-              : "/navbar-logo-dark.svg"
-          }
-          alt="dashboard"
-        />
+      <Image
+            width={50}
+            height={50}
+            className="mx-auto mr-4 rounded-lg relative rouded-lg leading-none flex items-center"
+            src={
+              theme === "light"
+                ? "/navbar-logo-light.svg"
+                : "/navbar-logo-dark.svg"
+            }
+            alt="dashboard"
+          />
         Monkey Lick Studios
       </Link>
 
       {/* <!-- Mobile --> */}
-      <div className="flex items-center lg:hidden">
+      {/* <div className="flex items-center lg:hidden">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
             <Menu
@@ -104,31 +105,24 @@ export const Navbar = () => {
               <SheetHeader className="mb-4 ml-4">
                 <SheetTitle className="flex items-center">
                   <Link href="/" className="flex items-center">
-                    <Image
-                      width={50}
-                      height={50}
-                      className="-ml-6 mr-4 rounded-lg relative rouded-lg leading-none flex items-center"
-                      src={
-                        theme === "light"
-                          ? "/navbar-logo-light.svg"
-                          : "/navbar-logo-dark.svg"
-                      }
-                      alt="dashboard"
-                    />
-                    Monkey Lick Studios
+                    <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
+                    Shadcn
                   </Link>
                 </SheetTitle>
               </SheetHeader>
 
               <div className="flex flex-col gap-2">
-                <Button
-                  onClick={() => setIsOpen(false)}
-                  asChild
-                  variant="ghost"
-                  className="justify-start text-base"
-                >
-                  <Link href="/team">Our Team</Link>
-                </Button>
+                {routeList.map(({ href, label }) => (
+                  <Button
+                    key={href}
+                    onClick={() => setIsOpen(false)}
+                    asChild
+                    variant="ghost"
+                    className="justify-start text-base"
+                  >
+                    <Link href={href}>{label}</Link>
+                  </Button>
+                ))}
               </div>
             </div>
 
@@ -139,23 +133,54 @@ export const Navbar = () => {
             </SheetFooter>
           </SheetContent>
         </Sheet>
-      </div>
+      </div> */}
 
       {/* <!-- Desktop --> */}
-      <NavigationMenu className="hidden lg:block mx-auto bg-transparent">
-        <div>
-          <Button
-            asChild
-            size="sm"
-            variant="ghost"
-            aria-label="Go to Team Page"
-          >
-            <Link aria-label="Go to Team Page" href="/team">
-              Our Team
-            </Link>
-          </Button>
-        </div>
-      </NavigationMenu>
+      {/* <NavigationMenu className="hidden lg:block mx-auto bg-transparent">
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger className="bg-card text-base bg-transparent">
+              Features
+            </NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
+                <Image
+                  src="https://avatars.githubusercontent.com/u/75042455?v=4"
+                  alt="RadixLogo"
+                  className="h-full w-full rounded-md object-cover"
+                  width={600}
+                  height={600}
+                />
+                <ul className="flex flex-col gap-2">
+                  {featureList.map(({ title, description }) => (
+                    <li
+                      key={title}
+                      className="rounded-md p-3 text-sm hover:bg-muted"
+                    >
+                      <p className="mb-1 font-semibold leading-none text-foreground">
+                        {title}
+                      </p>
+                      <p className="line-clamp-2 text-muted-foreground">
+                        {description}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+
+          <NavigationMenuItem>
+            {routeList.map(({ href, label }) => (
+              <NavigationMenuLink key={href} asChild>
+                <Link href={href} className="text-base px-2">
+                  {label}
+                </Link>
+              </NavigationMenuLink>
+            ))}
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu> */}
 
       <div className="hidden lg:flex">
         <ToggleTheme />
