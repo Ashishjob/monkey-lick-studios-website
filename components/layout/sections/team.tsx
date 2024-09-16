@@ -16,25 +16,25 @@ interface TeamProps {
 }
 const serviceList: TeamProps[] = [
   {
-    image: "/sterling-gore.svg",
+    image: "/team/sterling-gore.svg",
     name: "Sterling Gore",
     position: "🎬 Producer & Team Lead",
     linkedin: "https://www.linkedin.com/in/sterlinggore/",
   },
   {
-    image: "/ashish-job.svg",
+    image: "/team/ashish-job.svg",
     name: "Ashish Job",
     position: "🎬 Producer",
     linkedin: "https://www.linkedin.com/in/ashish-job/",
   },
   {
-    image: "/john-cox.svg",
+    image: "/team/john-cox.svg",
     name: "John Cox",
     position: "📝 Designer",
     linkedin: "https://www.linkedin.com/in/johncoxdev/",
   },
   {
-    image: "/sebastian-dle.svg",
+    image: "/team/sebastian-dle.svg",
     name: "Sebastian De La Espriella",
     position: "🖥️ Engineer",
     linkedin: "https://www.linkedin.com/in/sebastian-de-la-espriella/",
@@ -46,25 +46,25 @@ const serviceList: TeamProps[] = [
     linkedin: "",
   },
   {
-    image: "/ross-rezvani.svg",
+    image: "/team/ross-rezvani.svg",
     name: "Ross Rezvani",
     position: "📝 Designer",
     linkedin: "https://www.linkedin.com/in/submit",
   },
   {
-    image: "/brody-pen.svg",
+    image: "/team/brody-pen.svg",
     name: "Brody Pen",
     position: "🖥️ Engineer",
     linkedin: "https://www.linkedin.com/in/brodypen/",
   },
   {
-    image: "/jorell-padilla.svg",
+    image: "/team/jorell-padilla.svg",
     name: "Jorell Padilla",
     position: " 🎨 Artist",
     linkedin: "https://www.linkedin.com/in/jorell-padilla/",
   },
   {
-    image: "/adrian-armenta.svg",
+    image: "/team/adrian-armenta.svg",
     name: "Adrian Armenta",
     position: " 🎨 Artist",
     linkedin: "https://www.linkedin.com/in/adrian-armenta/",

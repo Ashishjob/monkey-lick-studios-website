@@ -5,9 +5,10 @@ import { FooterSection } from "@/components/layout/sections/footer";
 import { HeroSection } from "@/components/layout/sections/hero";
 import { PricingSection } from "@/components/layout/sections/pricing";
 import { TeamSection } from "@/components/layout/sections/team";
-import { CarouselSection } from "@/components/layout/sections/carousel";
+import { CarouselSection } from "@/components/layout/sections/company-carousel";
 import { CharacterSection } from "@/components/layout/sections/characters";
 import { GameDetailsSection } from "@/components/layout/sections/game-details";
+import { StoryboardSection } from "@/components/layout/sections/storyboard-carousel";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <GDDSection />
       <GameDetailsSection />
       <CharacterSection />
+      <StoryboardSection />
       <TeamSection />
 
       {/* <FeaturesSection />

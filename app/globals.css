@@ -105,11 +105,11 @@ html {
     --ring: 24.6 95% 53.1%;
     --radius: 0.5rem;
 
-    --amazon-logo: url('/amazon-light.svg');
-    --nasa-logo: url('/nasa.svg');
-    --pwc-logo: url('/pwc-light.svg');
-    --jpmc-logo: url('/jpmc-light.svg');
-    --paycom-logo: url('/paycom-light.svg');
+    --amazon-logo: url('/company/amazon-light.svg');
+    --nasa-logo: url('/company/nasa.svg');
+    --pwc-logo: url('/company/pwc-light.svg');
+    --jpmc-logo: url('/company/jpmc-light.svg');
+    --paycom-logo: url('/company/paycom-light.svg');
   }
 
   .dark {
@@ -141,10 +141,10 @@ html {
     --input: 12 6.5% 15.1%;
     --ring: 20.5 90.2% 48.2%;
 
-    --amazon-logo: url('/amazon-dark.svg');
-    --pwc-logo: url('/pwc-dark.svg');
-    --jpmc-logo: url('/jpmc-dark.svg');
-    --paycom-logo: url('/paycom-dark.svg');
+    --amazon-logo: url('/company/amazon-dark.svg');
+    --pwc-logo: url('/company/pwc-dark.svg');
+    --jpmc-logo: url('/company/jpmc-dark.svg');
+    --paycom-logo: url('/company/paycom-dark.svg');
   }
 }
 
