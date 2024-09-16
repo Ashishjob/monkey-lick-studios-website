@@ -6,7 +6,7 @@ import { HeroSection } from "@/components/layout/sections/hero";
 import { PricingSection } from "@/components/layout/sections/pricing";
 import { TeamSection } from "@/components/layout/sections/team";
 import { CarouselSection } from "@/components/layout/sections/carousel";
-import { TestimonialSection } from "@/components/layout/sections/testimonial";
+import { CharacterSection } from "@/components/layout/sections/characters";
 import { GameDetailsSection } from "@/components/layout/sections/game-details";
 
 export default function Home() {
@@ -16,10 +16,10 @@ export default function Home() {
       <CarouselSection />
       <GDDSection />
       <GameDetailsSection />
+      <CharacterSection />
       <TeamSection />
 
       {/* <FeaturesSection />
-      <TestimonialSection />
       <PricingSection />
       <FAQSection /> */}
 
