@@ -25,7 +25,7 @@ interface CharacterProps {
 
 const characterList: CharacterProps[] = [
   {
-    image: "/team/sterling-gore.svg",
+    image: "/unkownpfp.webp",
     name: "Dexter “Dex” Bates",
     originStory:
       "Dexter 'Dex' Bates is a former Air Force pilot, known for his sharp instincts and quick decision-making under pressure. After transitioning to become an astronaut, he was chosen for a high-stakes mission to investigate the mysterious loss of communication with a space station orbiting Earth. Resourceful and relentless, Dex must now navigate a series of unknown dangers to uncover the truth and restore the link to ground control.",
@@ -35,7 +35,7 @@ const characterList: CharacterProps[] = [
       "Dex is a highly disciplined and intelligent individual, shaped by his years in the Air Force where quick thinking and adaptability were essential. He remains calm under pressure, relying on logic and strategy to solve problems, yet is always ready to take decisive action when needed. His sense of duty and leadership drive him to persevere, even when faced with unknown dangers aboard the space station.",
   },
   {
-    image: "/team/sterling-gore.svg",
+    image: "/unkownpfp.webp",
     name: "Letov Yakovich (pre-Zomboid Form)",
     originStory:
       "Letov Yakovich, born in a small, rural village in Russia, fought his way through a challenging upbringing, excelling academically and earning a place in the military. His determination and discipline led him to join the Russian Space Agency, where he quickly proved himself as a skilled and courageous astronaut. A month before Dex's arrival at the station, Letov's communications with Ground Control mysteriously ceased, leaving his fate unknown.",
@@ -45,7 +45,7 @@ const characterList: CharacterProps[] = [
       "Letov is known for his resilience and relentless work ethic, traits he developed growing up in a harsh, remote village. His military background has made him disciplined, methodical, and fiercely loyal to his comrades. While he may come across as quiet and reserved, he is fiercely determined and capable of pushing through extreme challenges, with a deep sense of responsibility to complete any mission he's given.",
   },
   {
-    image: "/team/sterling-gore.svg",
+    image: "/unkownpfp.webp",
     name: "Letov Yakovich (Zomboid Form)",
     originStory:
       "Once a dedicated astronaut, Letov Yakovich fell victim to a mysterious parasitic entity that now controls his lifeless body. His last mission before communication was lost involved investigating an unusual biological anomaly on the space station, which ultimately led to his demise. Now, his body roams the station, manipulated by the parasite, as a haunting reminder of what happens when space's unknown dangers are unleashed.",
@@ -55,7 +55,7 @@ const characterList: CharacterProps[] = [
       "While Letov's mind is no longer his own, faint traces of his military discipline can be observed in the methodical, albeit eerie, way the parasite navigates his body through the space station. Any warmth or loyalty he once had has been replaced by a cold, predatory instinct driven by the parasite's need to survive. The creature controlling him shows no mercy, seeking to spread its influence across the station.",
   },
   {
-    image: "/team/sterling-gore.svg",
+    image: "/unkownpfp.webp",
     name: "Alien (Humanoid Form)",
     originStory:
       "explain them",
@@ -65,7 +65,7 @@ const characterList: CharacterProps[] = [
       "explain what they act like",
   },
   {
-    image: "/team/sterling-gore.svg",
+    image: "/unkownpfp.webp",
     name: "Alien (Parasitic Form)",
     originStory:
       "explain them",
