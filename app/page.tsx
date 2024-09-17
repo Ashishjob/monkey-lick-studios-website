@@ -14,6 +14,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <TeamSection />
       <CarouselSection />
       <GDDSection />
       <GameDetailsSection />
@@ -22,7 +23,6 @@ export default function Home() {
       <div className="flex flex-row justify-center w-full">
         <iframe src="https://docs.google.com/presentation/d/1gHobjaLR_Vuhj1yE9P_Zo1_aqsNgNzRjoRDeUi82cVg/embed?start=true&loop=true&delayms=3000" frameBorder="0" width="960" height="569" allowFullScreen></iframe>
       </div>
-      <TeamSection />
       {/* <FeaturesSection />
       <PricingSection />
       <FAQSection /> */}
