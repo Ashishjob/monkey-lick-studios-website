@@ -58,7 +58,7 @@ const characterList: CharacterProps[] = [
     image: "/unkownpfp.webp",
     name: "Alien (Humanoid Form)",
     originStory:
-      "SCP [REDACTED]",
+      "[UNKNOWN]",
     appearance:
       "?",
     personality:
@@ -68,7 +68,7 @@ const characterList: CharacterProps[] = [
     image: "/unkownpfp.webp",
     name: "Alien (Parasitic Form)",
     originStory:
-      "SCP [REDACTED]",
+      "[UNKNOWN]",
     appearance:
       "?",
     personality:
