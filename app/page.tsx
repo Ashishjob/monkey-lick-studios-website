@@ -21,7 +21,7 @@ export default function Home() {
       <StoryboardSection />
       <TeamSection />
       <div className="flex flex-row justify-center w-full">
-        <iframe src="https://docs.google.com/presentation/d/100x6_ORM86gmwy0lh4CkMpv7H5tryB4krr_QQdJRwUo/embed?start=false&loop=true&delayms=3000" frameBorder="0" width="960" height="569" allowFullScreen mozallowfullscreen webkitallowfullscreen></iframe>        </div>
+        <iframe src="https://docs.google.com/presentation/d/100x6_ORM86gmwy0lh4CkMpv7H5tryB4krr_QQdJRwUo/embed?start=false&loop=true&delayms=3000" frameBorder="0" width="960" height="569" allowFullScreen></iframe>        </div>
       {/* <FeaturesSection />
       <PricingSection />
       <FAQSection /> */}
