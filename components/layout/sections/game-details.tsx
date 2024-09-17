@@ -49,7 +49,7 @@ export const GameDetailsSection = () => {
           </p>
         </div>
         <Image
-          src="/game-logo.svg"
+          src="/game-logo.png"
           alt="Game Design Document"
           className="object-cover rounded-lg hover:cursor-default border-2"
           width={500}
