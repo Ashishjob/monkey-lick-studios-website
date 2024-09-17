@@ -20,7 +20,7 @@ export default function Home() {
       <CharacterSection />
       <StoryboardSection />
       <div className="flex flex-row justify-center w-full">
-        <iframe src="https://docs.google.com/presentation/d/100x6_ORM86gmwy0lh4CkMpv7H5tryB4krr_QQdJRwUo/embed?start=false&loop=true&delayms=3000" frameBorder="0" width="960" height="569" allowFullScreen></iframe>
+        <iframe src="https://docs.google.com/presentation/d/1gHobjaLR_Vuhj1yE9P_Zo1_aqsNgNzRjoRDeUi82cVg/embed?start=true&loop=true&delayms=3000" frameBorder="0" width="960" height="569" allowFullScreen></iframe>
       </div>
       <TeamSection />
       {/* <FeaturesSection />
