@@ -25,7 +25,7 @@ export const HeroSection = () => {
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-5/6 md:w-1/4 font-bold group/arrow bg-[#FED009] text-[#426D25]">
+            <Button className="w-5/6 md:w-1/4 font-bold group/arrow bg-[#FED009] hover:bg-[#FED009]/80 text-[#426D25]">
               Get Started
               <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
             </Button>
