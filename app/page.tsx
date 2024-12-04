@@ -9,6 +9,8 @@ import { CarouselSection } from "@/components/layout/sections/company-carousel";
 import { CharacterSection } from "@/components/layout/sections/characters";
 import { GameDetailsSection } from "@/components/layout/sections/game-details";
 import { StoryboardSection } from "@/components/layout/sections/storyboard-carousel";
+import Trailer from "@/components/layout/sections/trailer";
+import GameDownload from "@/components/layout/sections/game-download";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <HeroSection />
       <TeamSection />
       <CarouselSection />
+      <Trailer />
+      <GameDownload />
       <GDDSection />
       <GameDetailsSection />
       <CharacterSection />

@@ -12,14 +12,74 @@ export const HeroSection = () => {
     <section className="container w-full">
       <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
         <div className="text-center space-y-8">
-
-
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
-            <h1>
-             Numbah One Game Developing Studio
-            </h1>
+            <h1>Numbah One Game Developing Studio</h1>
           </div>
-
+          <div className="flex flex-row">
+            <Image
+              width={120}
+              height={120}
+              className=""
+              src="/coin.webp"
+              alt="dashboard"
+            />
+            <Image
+              width={120}
+              height={120}
+              className=""
+              src="/coin.webp"
+              alt="dashboard"
+            />
+            <Image
+              width={120}
+              height={120}
+              className=""
+              src="/coin.webp"
+              alt="dashboard"
+            />
+            <Image
+              width={120}
+              height={120}
+              className=""
+              src="/coin.webp"
+              alt="dashboard"
+            />
+            <Image
+              width={120}
+              height={120}
+              className=""
+              src="/coin.webp"
+              alt="dashboard"
+            />
+            <Image
+              width={120}
+              height={120}
+              className=""
+              src="/coin.webp"
+              alt="dashboard"
+            />
+            <Image
+              width={120}
+              height={120}
+              className=""
+              src="/coin.webp"
+              alt="dashboard"
+            />
+            <Image
+              width={120}
+              height={120}
+              className=""
+              src="/coin.webp"
+              alt="dashboard"
+            />
+            <Image
+              width={120}
+              height={120}
+              className=""
+              src="/coin.webp"
+              alt="dashboard"
+            />
+          </div>
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
             {`We are a team of highly skilled developers that are passionate about creating games that are fun and engaging.`}
           </p>
