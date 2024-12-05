@@ -1,1 +1,2 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+public/stasis.zip filter=lfs diff=lfs merge=lfs -text
