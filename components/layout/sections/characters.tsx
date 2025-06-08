@@ -78,7 +78,7 @@ const characterList: CharacterProps[] = [
 
 export const CharacterSection = () => {
   return (
-    <section id="testimonials" className="container py-24 sm:py-32">
+    <section id="testimonials" className="container py-16 md:py-24">
       <div className="text-center mb-8">
         <h2 className="text-lg text-[#FED009] text-center mb-2 tracking-wider">
           Characters
@@ -93,28 +93,30 @@ export const CharacterSection = () => {
         opts={{
           align: "start",
         }}
-        className="relative w-[80%] sm:w-[90%] lg:max-w-screen-xl mx-auto"
+        className="relative w-full sm:w-[90%] lg:max-w-screen-xl mx-auto text-center md:text-left"
       >
         <CarouselContent>
           {characterList.map((character) => (
             <CarouselItem
               key={character.name}
-              className="md:basis-1/1 lg:basis-1/1"
+              className="px-1 md:basis-1/1 lg:basis-1/1"
             >
-              <Card className="bg-muted/50 dark:bg-card flex flex-row">
-                <Avatar className="w-1/3 h-fit">
+              <Card className="bg-muted/50 dark:bg-card flex flex-col sm:flex-row">
+                <Avatar className="w-full sm:w-1/3 h-fit mx-auto sm:mx-0 mb-4 sm:mb-0">
                   <AvatarImage src={character.image} alt={character.name} />
                   <AvatarFallback>SV</AvatarFallback>
                 </Avatar>
-                <CardContent className="p-6 w-2/3">
-                  <CardTitle className="text-2xl mb-2">{character.name}</CardTitle>
-                  <CardDescription className="text-sm mb-4">
+                <CardContent className="p-4 sm:p-6 w-full sm:w-2/3">
+                  <CardTitle className="text-xl sm:text-2xl mb-2">
+                    {character.name}
+                  </CardTitle>
+                  <CardDescription className="text-xs sm:text-sm mb-4">
                     <strong>Origin Story:</strong> {character.originStory}
                   </CardDescription>
-                  <CardDescription className="text-sm mb-4">
+                  <CardDescription className="text-xs sm:text-sm mb-4">
                     <strong>Appearance:</strong> {character.appearance}
                   </CardDescription>
-                  <CardDescription className="text-sm">
+                  <CardDescription className="text-xs sm:text-sm">
                     <strong>Personality:</strong> {character.personality}
                   </CardDescription>
                 </CardContent>

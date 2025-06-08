@@ -36,6 +36,10 @@ interface FeatureProps {
 
 const routeList: RouteProps[] = [
   {
+    href: "/resources",
+    label: "Resources",
+  },
+  {
     href: "#testimonials",
     label: "Testimonials",
   },
@@ -188,7 +192,7 @@ export const Navbar = () => {
         <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
           <Link
             aria-label="View on GitHub"
-            href="https://github.com/Monkey-Lick-Studios"
+            href="https://github.com/Sterling-Gore/Stasis"
             target="_blank"
           >
             <Github className="size-5" />

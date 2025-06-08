@@ -3,7 +3,7 @@ import { Download } from 'lucide-react';
 
 const GameDownload = () => {
     // Replace this with your Google Drive sharing link
-    const googleDriveLink = "https://drive.google.com/file/d/1p07DkrxjWWTxdiAf_cdYP6WnOv-0Cre0/view?usp=drive_link";
+    const googleDriveLink = "https://distotron.itch.io/stasis";
     
     return (
         <div className="flex justify-center items-center p-4">

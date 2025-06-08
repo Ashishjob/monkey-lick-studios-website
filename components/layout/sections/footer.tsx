@@ -17,8 +17,8 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Contact</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Github
+              <Link href="https://distotron.itch.io/stasis" className="opacity-60 hover:opacity-100">
+                itch.io
               </Link>
             </div>
 
@@ -105,7 +105,7 @@ export const FooterSection = () => {
             &copy; 2024 Brought to you by 
             <Link
               target="_blank"
-              href="https://github.com/Monkey-Lick-Studios"
+              href="https://github.com/Sterling-Gore/Stasis"
               className="text-[#FED009] transition-all border-primary hover:border-b-2 ml-1"
             >
               Monkey Lick Studios     

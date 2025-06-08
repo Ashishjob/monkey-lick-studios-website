@@ -76,7 +76,7 @@ const sceneList: StoryboardProps[] = [
 
 export const StoryboardSection = () => {
   return (
-    <section id="storyboard" className="container py-24 sm:py-32">
+    <section id="storyboard" className="container pb-16 md:pb-24">
       <div className="text-center mb-8">
         <h2 className="text-lg text-[#FED009] text-center mb-2 tracking-wider">
           Storyboard
@@ -91,22 +91,22 @@ export const StoryboardSection = () => {
         opts={{
           align: "start",
         }}
-        className="relative w-[80%] sm:w-[90%] lg:max-w-screen-xl mx-auto"
+        className="relative w-full sm:w-[90%] lg:max-w-screen-xl mx-auto"
       >
         <CarouselContent>
           {sceneList.map((scene) => (
             <CarouselItem
               key={scene.title}
-              className="md:basis-1/1 lg:basis-1/3"
+              className="px-1 md:basis-1/2 lg:basis-1/3"
             >
-              <Card className="bg-white h-full dark:bg-card flex flex-col items-center p-4 shadow-lg ">
-                <Avatar className="w-full h-64 mb-4">
+              <Card className="bg-white h-full dark:bg-card flex flex-col items-center p-2 sm:p-4 shadow-lg">
+                <Avatar className="w-full h-48 sm:h-64 mb-4">
                   <AvatarImage src={scene.image} alt={scene.title} />
                   <AvatarFallback>SV</AvatarFallback>
                 </Avatar>
-                <CardContent className="text-left">
-                  <CardTitle className="text-xl mb-2">{scene.title}</CardTitle>
-                  <CardDescription className="mb-4">{scene.description}</CardDescription>
+                <CardContent className="text-center md:text-left">
+                  <CardTitle className="text-lg sm:text-xl mb-2">{scene.title}</CardTitle>
+                  <CardDescription className="md:mb-4 text-xs sm:text-sm">{scene.description}</CardDescription>
                 </CardContent>
               </Card>
             </CarouselItem>

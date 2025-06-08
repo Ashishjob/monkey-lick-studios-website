@@ -2,7 +2,7 @@
 import React from 'react';
 
 const Trailer: React.FC = () => {
-  const src = "/trailer.mp4";
+  const src = "/new-trailer.mp4";
   return (
     <div className="flex flex-col justify-center items-center p-4">
       <h2 className="text-lg text-[#FED009] text-center mb-2 tracking-wider">
@@ -18,16 +18,18 @@ const Trailer: React.FC = () => {
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
         Watch our official trailer to get a sneak peek of the game.
       </h3>
-      <iframe
-        width="1080"
-        height="500"
-        src={src}
-        title="Trailer"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        className=""
-      ></iframe>
+      <div className="w-full flex justify-center items-center">
+        <div className="w-full max-w-[95vw] sm:max-w-[600px] md:max-w-[900px] aspect-video rounded-lg overflow-hidden shadow-lg bg-black">
+          <iframe
+            src={src}
+            title="Trailer"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+            frameBorder="0"
+          ></iframe>
+        </div>
+      </div>
     </div>
   );
 };
