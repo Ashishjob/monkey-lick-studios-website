@@ -60,15 +60,27 @@ const serviceList: TeamProps[] = [
   {
     image: "/team/jorell-padilla.svg",
     name: "Jorell Padilla",
-    position: " 🎨 Artist",
+    position: "🎨 Artist",
     linkedin: "https://www.linkedin.com/in/jorell-padilla/",
   },
   {
     image: "/team/adrian-armenta.svg",
     name: "Adrian Armenta",
-    position: " 🎨 Artist",
+    position: "🎨 Artist",
     linkedin: "https://www.linkedin.com/in/adrian-armenta/",
   },
+  {
+    image: "/team/dorian-griffin.svg",
+    name: "Dorian Griffin",
+    position: "🎨 Artist",
+    linkedin: "https://www.linkedin.com/in/dorian-griffin-937646176/",
+  },
+  // {
+  //   image: "/team/dorian-griffin.svg",
+  //   name: "Kevin",
+  //   position: "🎨 Artist",
+  //   linkedin: "https://www.linkedin.com/in/dorian-griffin-937646176/",
+  // },
 ];
 
 export const TeamSection = () => {
