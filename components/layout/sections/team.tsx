@@ -75,12 +75,12 @@ const serviceList: TeamProps[] = [
     position: "🎨 Artist",
     linkedin: "https://www.linkedin.com/in/dorian-griffin-937646176/",
   },
-  // {
-  //   image: "/team/dorian-griffin.svg",
-  //   name: "Kevin",
-  //   position: "🎨 Artist",
-  //   linkedin: "https://www.linkedin.com/in/dorian-griffin-937646176/",
-  // },
+  {
+    image: "/team/kevin-duong.svg",
+    name: "Kevin Duong",
+    position: "🖥️ Engineer",
+    linkedin: "https://www.linkedin.com/in/kevin-duong-29212430a/",
+  },
 ];
 
 export const TeamSection = () => {
